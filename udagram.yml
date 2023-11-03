@@ -57,7 +57,7 @@ Resources:
         ImageId: ami-0fc5d935ebf8bc3bc #OS Ubuntu 22? copied this from the Image ID in AWS
         SecurityGroupIds:
           - !Ref WebServerSecGroup
-        InstanceType: t2.micro
+        InstanceType: t3.small #(2 vCPUs)
         BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
           Ebs:
