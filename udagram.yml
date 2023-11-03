@@ -159,3 +159,10 @@ Resources:
       VpcId: 
         Fn::ImportValue:
           Fn::Sub: "${EnvironmentName}-VPCID"
+#Open website
+Outputs: 
+    LoadBalancerEndpoint: 
+      Description: Public url to open website
+      Value: !Join [ "", [ 'http://', !GetAtt WebAppLB.DNSName  ]]
+      Export:
+        Name: !Sub ${EnvironmentName}-LBURL

@@ -2,7 +2,8 @@
 # [CRISTINE LANTING]
 
 ## Spin up instructions
-
+Run ./sh-files/install.sh stack-project2 network.yml network-parameters.json
+Run ./sh-files/install.sh udagram-stack-project2 udagram.yml udagram-parameters.json
 ## Tear down instructions
 TODO
 
