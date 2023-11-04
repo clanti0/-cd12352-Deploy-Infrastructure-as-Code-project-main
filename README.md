@@ -15,3 +15,12 @@ The following should be installed in VSCode
 
 Other note: user should be on the folder above ssh-files before running the script. On this case it should be on -cd12352-Deploy-Infrastructure-as-Code-project-clanting
 
+## Updated the following based on review
+Review 1: Add a output section showing the Load Balancer DNS URL
+- Solution: updates are available from line 162 under 'udagram.yml'
+
+Review 2: Please change the instance type to meet the minimum requirement
+- Solution: Update available on line 60 under 'udagram.yml'. Changed to t3.small
+
+Review 3: Provide a URL to your deployed app. In this way, I can verify your deployment.
+- Link can be accessed in: http://udagra-WebAp-naRDxzwW1CRu-218369682.us-east-1.elb.amazonaws.com
